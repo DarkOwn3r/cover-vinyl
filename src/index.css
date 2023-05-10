@@ -1,7 +1,8 @@
 body {
-  height: 100vh;
-  background: #223;
   overflow: hidden;
+  display: flex;
+  height: 100%;
+  background-color: black;
 }
 
 .album {
@@ -126,6 +127,10 @@ body {
   transform: rotateY(180deg);
 }
 
+.vinyl:hover .vinyl-inner {
+  cursor: pointer;
+}
+
 .album:hover .vinyl {
   translate: 50vw 0;
 }
@@ -150,4 +155,15 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+#myvideo {
+  width: 100%;
 }
