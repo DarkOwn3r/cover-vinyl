@@ -2,14 +2,10 @@ body {
   height: 100vh;
   background: #223;
   overflow: hidden;
-  display: flex;
 }
 
 .album {
   margin: 5vw;
-  display: flex;
-  justify-content: left;
-  align-items: center;
   width: 30vw;
   height: 30vw;
 }
@@ -38,9 +34,6 @@ body {
   height: 30vw;
   background-image: url("https://m.media-amazon.com/images/I/61MvC4pGkDL._SL1400_.jpg");
   box-shadow: 40px 20px 20px rgb(0 0 0 / 50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-size: cover;
 }
 
@@ -108,7 +101,6 @@ body {
   width: 1vw;
   height: 1vw;
   background-color: black;
-  display: flex;
 }
 
 .vinyl-back {
@@ -128,7 +120,6 @@ body {
   width: 1vw;
   height: 1vw;
   background-color: black;
-  display: flex;
 }
 
 .vinyl:active .vinyl-inner {
